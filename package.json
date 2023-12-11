@@ -4,6 +4,7 @@
   "description": "A second Electron App Test in preparation for the Joystick Program.",
   "main": "main.js",
   "scripts": {
+    "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
