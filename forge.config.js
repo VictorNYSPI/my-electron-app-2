@@ -30,4 +30,19 @@ module.exports = {
       config: {},
     },
   ],
+
+  publishers: [
+    {
+      name: '@electron-forge/publisher-github',
+      config: {
+        repository: {
+          owner: 'Victor Anosike',
+          name: 'VictorNYSPI'
+        },
+        prerelease: false,
+        draft: true
+      }
+    }
+  ]
+
 };
