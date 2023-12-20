@@ -1,3 +1,9 @@
+require('dotenv').config()
+
+//import {GITHUB_TOKEN} from '/.env'
+
+//const authToken = require('.env')
+
 module.exports = {
   packagerConfig: {
     asar: true,
@@ -39,7 +45,11 @@ module.exports = {
           owner: 'Victor Anosike',
           name: 'VictorNYSPI'
         },
-        prerelease: false,
+        //authToken: GITHUB_TOKEN,
+        authToken: process.env.GITHUB_TOKEN,
+        //draft: process.env.PUBLISHER_GITHUB_DRAFT,
+        //prerelease: process.env.PUBLISHER_GITHUB_PRERELEASE,
+        // This was the original //prerelease: false,
         draft: true
       }
     }

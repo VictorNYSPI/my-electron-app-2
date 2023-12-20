@@ -1,4 +1,5 @@
 //console.log('Hello from Electron!!')
+require('dotenv').config()
 
 const { app, BrowserWindow, ipcMain } = require('electron');
 const path = require('node:path')
