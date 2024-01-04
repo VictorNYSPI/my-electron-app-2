@@ -42,8 +42,8 @@ module.exports = {
       name: '@electron-forge/publisher-github',
       config: {
         repository: {
-          owner: 'Victor Anosike',
-          name: 'VictorNYSPI'
+          owner: 'VictorNYSPI',
+          name: 'my-electron-app-2'
         },
         //authToken: GITHUB_TOKEN,
         authToken: process.env.GITHUB_TOKEN,
